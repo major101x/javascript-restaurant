@@ -1,4 +1,4 @@
-import foodImage from "./food-image.jpg";
+import foodImage from "./images/food-image.jpg";
 const homeModule = () => {
   // Select div#content inside template.html
   const contentDiv = document.querySelector("#content");
