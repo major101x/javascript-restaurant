@@ -15,7 +15,7 @@ const homeModule = () => {
   img.src = foodImage;
   h1.textContent = "Welcome to Food For Real!";
   h2.textContent =
-    "Being one of the best establishments in God knows where, Food For Real makes quality meals and provides high-quality customer service for its esteemed customers. Your satisfaction is our top priority, for real!";
+    "Being one of the best establishments in God knows where, Food For Real makes quality burgers and provides high-quality customer service for its esteemed customers. Your satisfaction is our top priority, for real!";
 
   // Append elements to contentDiv
   contentDiv.appendChild(img);
