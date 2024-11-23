@@ -7,6 +7,7 @@ const homeModule = () => {
 
   // Creates wrapper for homeModule
   const homeDiv = document.createElement("div");
+  homeDiv.classList.add("home");
   contentDiv.appendChild(homeDiv);
 
   // Create elements
