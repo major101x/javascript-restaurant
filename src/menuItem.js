@@ -1,6 +1,7 @@
 const menuItem = (divToAppendTo, { name, description, price, image }) => {
-  // Select div#content inside template.html
-  const contentDiv = document.querySelector("#content");
+  // Create wrapper for menu items
+  const menuItem = document.createElement("div");
+  menuItem.classList.add("menu-item");
 
   // Create elements
   const nameDiv = document.createElement("h3");
@@ -14,11 +15,14 @@ const menuItem = (divToAppendTo, { name, description, price, image }) => {
   priceDiv.textContent = "$" + price;
   foodImg.src = image;
 
-  // Elements are appended to div passed as argument
-  divToAppendTo.appendChild(foodImg);
-  divToAppendTo.appendChild(nameDiv);
-  divToAppendTo.appendChild(descriptionDiv);
-  divToAppendTo.appendChild(priceDiv);
+  // Elements are appended to menuItem
+  menuItem.appendChild(foodImg);
+  menuItem.appendChild(nameDiv);
+  menuItem.appendChild(descriptionDiv);
+  menuItem.appendChild(priceDiv);
+
+  // Append menuItem to div passed as argument
+  divToAppendTo.appendChild(menuItem);
 };
 
 export default menuItem;
