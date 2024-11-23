@@ -9,6 +9,12 @@ const menuItem = (divToAppendTo, { name, description, price, image }) => {
   const priceDiv = document.createElement("p");
   const foodImg = document.createElement("img");
 
+  // Add classes to elements
+  nameDiv.classList.add("item-name");
+  descriptionDiv.classList.add("item-description");
+  priceDiv.classList.add("item-price");
+  foodImg.classList.add("item-image");
+
   // Add parameter as content to created elements
   nameDiv.textContent = name;
   descriptionDiv.textContent = description;
