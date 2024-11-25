@@ -1,3 +1,4 @@
+import "./styles.css";
 import homeModule from "./homeModule";
 import menuModule from "./menuModule";
 import contactModule from "./contactModule";
