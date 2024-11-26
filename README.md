@@ -29,7 +29,9 @@ npm start
 ```
 
 ## Lessons Learned
-Doing this project, I learned how to 
+
+Doing this project, I learned how to
+
 - Setup a webpack project
 - Use ESM Modules
 - Configure npm scripts
@@ -47,7 +49,3 @@ Doing this project, I learned how to
 - Photo of an cheeseburger by [Renee Comet (photographer), Public Domain](https://commons.wikimedia.org/w/index.php?curid=1635314)
 
 - Photo of an veggie burger by [Roee Shpernik, CC BY-SA 4.0](https://commons.wikimedia.org/w/index.php?curid=35019440)
-
-```
-
-```
