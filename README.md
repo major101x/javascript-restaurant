@@ -25,7 +25,13 @@ npm install
 - Start the live server (the script has been configured for convenience)
 
 ```bash
-npm start
+npm run dev
+```
+
+For building, run:
+
+```bash
+npm run build
 ```
 
 ## Lessons Learned
