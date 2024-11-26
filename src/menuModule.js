@@ -13,6 +13,7 @@ const menuModule = () => {
   contentDiv.textContent = "";
 
   const menuDiv = document.createElement("div");
+  menuDiv.classList.add("menu");
 
   contentDiv.appendChild(menuDiv);
 
