@@ -8,10 +8,10 @@
 /* VARIABLES */
 :root {
   --text: #e8f8f7;
-  --background: #05100f;
-  --primary: #306a9c;
+  --background: hsla(175, 52%, 4%, 0.75);
+  --primary: hsla(208, 53%, 40%, 1);
   --secondary: #b9bae9;
-  --accent: #3236a4;
+  --accent: hsla(238, 53%, 42%, 1);
   --linearPrimarySecondary: linear-gradient(#306a9c, #b9bae9);
 }
 
@@ -89,12 +89,20 @@ header button:hover::before {
   transform-origin: bottom left;
 }
 
-header button.active-tab {
-  font-size: 3.2rem;
-}
 header button.active-tab::before {
   transform: scaleX(1);
   height: 8px;
+}
+
+/* CONTENT CONTAINER */
+#content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 24px;
+  width: 50%;
+  background-color: var(--background);
 }
 
 /* FOOTER */
