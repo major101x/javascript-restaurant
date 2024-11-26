@@ -1,4 +1,38 @@
-# javascript-restaurant
+# foodFR
+
+A simple restaurant page made with HTML, CSS, JavaScript and Webpack.
+
+## Run Locally
+
+- Clone the project
+
+```bash
+git clone https://github.com/major101x/javascript-restaurant
+```
+
+- Go to the project directory
+
+```bash
+cd javascript-restaurant
+```
+
+- Install dependencies
+
+```bash
+npm install
+```
+
+- Start the live server (the script has been configured for convenience)
+
+```bash
+npm start
+```
+
+## Lessons Learned
+Doing this project, I learned how to 
+- Setup a webpack project
+- Use ESM Modules
+- Configure npm scripts
 
 ### Credits/Attributions
 
@@ -13,3 +47,7 @@
 - Photo of an cheeseburger by [Renee Comet (photographer), Public Domain](https://commons.wikimedia.org/w/index.php?curid=1635314)
 
 - Photo of an veggie burger by [Roee Shpernik, CC BY-SA 4.0](https://commons.wikimedia.org/w/index.php?curid=35019440)
+
+```
+
+```
