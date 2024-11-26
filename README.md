@@ -6,7 +6,7 @@
 
 - Photo of a hamburger by [Hongreddotbrewhouse - Own work, CC BY-SA 3.0](https://commons.wikimedia.org/w/index.php?curid=33551162)
 
-- Photo of an angus burger by [ Gesalbte - Own work, Public Domain](https://commons.wikimedia.org/w/index.php?curid=33551162)
+- Photo of an angus burger by [By Ewan Munro from London, UK - Greenwich Union, Greenwich, London. Uploaded by tm, CC BY-SA 2.0](https://commons.wikimedia.org/w/index.php?curid=24281849)
 
 - Photo of an chilli burger by [ChildofMidnight at English Wikipedia, CC BY-SA 3.0](https://commons.wikimedia.org/w/index.php?curid=25296924)
 
