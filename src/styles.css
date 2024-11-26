@@ -9,7 +9,7 @@
 :root {
   --text: #e8f8f7;
   --background: hsla(175, 52%, 4%, 0.75);
-  --primary: hsla(208, 53%, 40%, 1);
+  --primary: hsla(208, 53%, 70%, 1);
   --secondary: #b9bae9;
   --accent: hsla(238, 53%, 42%, 1);
   --linearPrimarySecondary: linear-gradient(#306a9c, #b9bae9);
@@ -103,6 +103,31 @@ header button.active-tab::before {
   padding: 24px;
   width: 50%;
   background-color: var(--background);
+  border-radius: 8px;
+}
+
+/* HOME SECTION */
+.home h1 {
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.home h2 {
+  font-weight: 400;
+}
+
+/* CONTACT SECTION */
+.contact {
+  font-size: 2.4rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.contact .day {
+  color: var(--primary);
 }
 
 /* FOOTER */
