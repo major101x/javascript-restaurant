@@ -7,8 +7,8 @@
 
 /* VARIABLES */
 :root {
-  --text: #05100f;
-  --background: #e8f8f7;
+  --text: #e8f8f7;
+  --background: #05100f;
   --primary: #306a9c;
   --secondary: #b9bae9;
   --accent: #3236a4;
@@ -27,19 +27,21 @@ html {
   font-family: "Gotu", sans-serif;
   background-image: url("./images/food-image.jpg");
   background-size: cover;
-  color: #fff;
+  color: var(--text);
 }
 
 body {
   font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
 }
 
 /* HEADER */
 header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 4px 24px;
+  padding: 4px 32px;
+  background-color: var(--background);
 }
 
 header .logo {
@@ -51,7 +53,8 @@ header .logo {
 header nav {
   display: flex;
   flex-direction: row;
-  gap: 24px;
+  gap: 32px;
+  margin-left: auto;
 }
 
 header button {
@@ -92,4 +95,15 @@ header button.active-tab {
 header button.active-tab::before {
   transform: scaleX(1);
   height: 8px;
+}
+
+/* FOOTER */
+footer {
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+  background-color: var(--background);
+  padding: 8px 32px;
 }
